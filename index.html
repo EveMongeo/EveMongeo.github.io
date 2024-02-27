@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Jane Doe">
+  <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Evelin Montero Gómez | Estudiante de Ingeniería en Sistemas</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Habilidades blandas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#articulos">Software y Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#educacion">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-desarrollador rounded-circle"
+        src="imagenes/profile_picture.jpg" alt="Foto de Evelin">
+      <div class="row">
+        <div>
+          <h1>Evelin Montero Gómez</h1>
+          <h2>Experiencia en QA Testing y herramientas de Software</h2>
+        </div>
+        <div>
+          <a href="CV_Montero_Evelin.pdf" target="_blank" rel="noopener noreferrer" download="CV_Montero_Evelin">
+            <button type="button" class="btn btn-info">
+              Descargar CV
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.png"
+        alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React." width="1000" height="1200">
+    </div>
+  </section>
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Evelin</h2>
+      <p class="seccion-texto">Destaco en la creación de herramientas para
+        la obtención de información en la etapa de
+        planeación del software, así como también
+        en la elaboración de diagramas de procesos
+        y escenarios de casos de usos. Mi destreza
+        en el análisis y comunicación me han
+        facilitado trabajar en equipos y gestionar
+        proyectos escolares, así como también
+        realizar propuestas de software
+        personalizado para beneficiar la economía
+        local, y participar en el diseño estructural de
+        la interfaz de usuario en función del público
+        objetivo y funcionalidad del sistema.</p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Experiencia laboral: QA tester (aklara México) Marzo 2023 -
+            Febrero 2024
+          </p>
+          <p>Entre mis responsabilidades clave designadas
+            se incluyen la redacción y asignación de
+            historias de usuario (con el marco de trabajo
+            SCRUM), elaboración de planes de prueba de
+            caja negra, ejecución de pruebas
+            experimentales, así como también
+            identificación y reporte de errores.
+            Además me encargo de verificar el
+            cumplimiento de las normas de UX y plantear
+            sugerencias de mejora.
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Pivotal</span>
+            <span class="badge text-bg-primary">Scrum</span>
+            <span class="badge text-bg-primary">Excel</span>
+          </div>
+        </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h1 class="seccion-hyper-titulo texto-negro">Habilidades blandas</h1>
+    <h3 class="seccion-descripcion">Desarrollo personal y profesional</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Comunicación efectiva</h2>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Trabajo en equipo
+            </h2>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Resolución de problemas
+            </h2>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Adaptabilidad</h2>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Liderazgo</h2>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Gestión del tiempo
+            </h2>
+          </div>
+        </div>
+        <!-- Proyecto 7 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Empatía</h2>
+          </div>
+        </div>
+        <!-- Proyecto 8 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Pensamiento crítico
+            </h2>
+          </div>
+        </div>
+        <!-- Proyecto 9 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <h2 class="seccion-titulo texto-negro">Ética profesional</h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Articulos -->
+  <section id="articulos" class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Software y Habilidades</h2>
+    <div class="card">
+      <div class="card-header">
+        Más recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          Java
+        </li>
+        <li class="list-group-item">
+          C
+        </li>
+        <li class="list-group-item">
+          C++
+        </li>
+        <li class="list-group-item">
+          Matlab
+        </li>
+        <li class="list-group-item">
+          JavaScript
+        </li>
+        <li class="list-group-item">
+          Visual Studio Code
+        </li>
+        <li class="list-group-item">
+          Android Studio
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="educacion" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Educación</h2>
+    <h3 class="seccion-descripcion">Formación académica</h3>
+
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/ITSX_logo.png" alt="Foto del Instituto Tecnológico Superior de Xalapa">
+            <p class="testimonio-texto">Instituto Tecnológico Superior de Xalapa</p>
+            <div class="testimonio-info">
+              <p class="cliente">Ingeniería en Sistemas Computacionales.</p>
+              <p class="cargo">2019 - 2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:evemongeo@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="skype:live:.cid.c6998aeb15a7644c?chat" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-skype"></i>
+      </a>
+      <a href="https://linkedin.com/in/evemongeo/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="tel: +522791008125" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-phone"></i>
+      </a>
+      <a href="mailto:evemongeo@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Evelin Montero (2024) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
